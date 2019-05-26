@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63d6e699-0b5d-45fd-8010-635802741d6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PCAEngineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PCAEngineTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,35 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/core/common/IOManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
-              <folding>
-                <element signature="docComment;field#pathToFile#0;class#IOManager#0" />
-                <element signature="docComment;method#IOManager#0;class#IOManager#0" />
-                <element signature="docComment;method#openInputStream#0;class#IOManager#0" />
-                <element signature="docComment;method#closeInputStream#0;class#IOManager#0" />
-                <element signature="method#closeInputStream#0;class#IOManager#0" />
-                <element signature="docComment;method#readInput#0;class#IOManager#0" />
-                <element signature="method#readInput#0;class#IOManager#0" />
-                <element signature="docComment;method#openOutputStream#0;class#IOManager#0" />
-                <element signature="docComment;method#flushOutputStream#0;class#IOManager#0" />
-                <element signature="docComment;method#closeOutputStream#0;class#IOManager#0" />
-                <element signature="method#closeOutputStream#0;class#IOManager#0" />
-                <element signature="docComment;method#writeOutput#0;class#IOManager#0" />
-                <element signature="method#writeOutput#0;class#IOManager#0" />
-                <element signature="docComment;method#readLines#0;class#IOManager#0" />
-                <element signature="method#readLines#0;class#IOManager#0" />
-                <element signature="e#3404#3454#1" />
-                <element signature="docComment;method#writeTextToFile#0;class#IOManager#0" />
-                <element signature="e#4024#4077#1" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/gui/GaussianController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/algorithm/PCAEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="176" column="55" selection-start-line="176" selection-start-column="55" selection-end-line="176" selection-end-column="55" />
+            <state relative-caret-position="357">
+              <caret line="142" column="140" selection-start-line="142" selection-start-column="140" selection-end-line="142" selection-end-column="140" />
               <folding>
                 <element signature="method#PCAEngine#0;class#PCAEngine#0" />
                 <element signature="docComment;method#loadModel#0;class#PCAEngine#0" />
@@ -92,9 +62,17 @@
                 <element signature="e#4201#4449#1" />
                 <element signature="e#4590#4761#1" />
                 <element signature="docComment;method#calculateVectorsDistance#0;class#PCAEngine#0" />
+                <element signature="method#calculateVectorsDistance#0;class#PCAEngine#0" />
+                <element signature="e#5186#5524#1" />
                 <element signature="docComment;method#calculateTfIdf#0;class#PCAEngine#0" />
+                <element signature="method#calculateTfIdf#0;class#PCAEngine#0" />
                 <element signature="docComment;method#train#0;class#PCAEngine#0" />
                 <element signature="method#train#0;class#PCAEngine#0" />
+                <element signature="e#6544#7352#0" />
+                <element signature="e#6850#7272#1" />
+                <element signature="e#6935#7008#0" />
+                <element signature="e#6979#7258#1" />
+                <element signature="e#7375#7415#0" />
                 <element signature="docComment;method#startCalculateChunk#0;class#PCAEngine#0" />
                 <element signature="method#startCalculateChunk#0;class#PCAEngine#0" />
                 <element signature="e#7803#8466#1" />
@@ -124,24 +102,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#901#902#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PCAEngineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+            <state relative-caret-position="330">
+              <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
               <folding>
                 <element signature="method#testLoadModelMethod#0;class#PCAEngineTest#0" />
                 <element signature="e#318#368#0" />
@@ -162,6 +126,26 @@
                 <element signature="e#2153#2196#0" />
                 <element signature="e#2219#2263#0" />
                 <element signature="e#2297#2341#0" />
+                <element signature="method#testTrainMethod#0;class#PCAEngineTest#0" />
+                <element signature="e#3515#3629#0" />
+                <element signature="e#3663#3707#0" />
+                <element signature="e#3744#3788#0" />
+                <element signature="e#5359#5430#0" />
+                <element signature="e#5467#5538#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-61">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#929#930#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,7 +193,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/algorithm/MixtureGaussianGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -263,12 +247,12 @@
         <option value="$PROJECT_DIR$/src/main/java/thienthn/algorithm/MixtureGaussianGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/thienthn/gui/GaussianController.java" />
         <option value="$PROJECT_DIR$/src/test/java/MixtureGaussianGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PCAEngineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/thienthn/gui/PCAController.java" />
         <option value="$PROJECT_DIR$/src/main/java/thienthn/algorithm/PCAEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/thienthn/core/common/ConfigurationManager.java" />
         <option value="$PROJECT_DIR$/app.config" />
+        <option value="$PROJECT_DIR$/src/test/java/PCAEngineTest.java" />
       </list>
     </option>
   </component>
@@ -369,17 +353,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DSA" />
+  <component name="RunManager" selected="JUnit.PCAEngineTest.testCalculateVectorsDistanceMethod">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="PCAEngineTest.testCalculateTfIdfMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PCAEngineTest" />
+      <option name="METHOD_NAME" value="testCalculateTfIdfMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PCAEngineTest.testCalculateVectorsDistanceMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DSA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PCAEngineTest" />
+      <option name="METHOD_NAME" value="testCalculateVectorsDistanceMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -417,17 +415,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PCAEngineTest.testLoadModelMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DSA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PCAEngineTest" />
-      <option name="METHOD_NAME" value="testLoadModelMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -444,44 +431,44 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PCAEngineTest.testCalculateVectorsDistanceMethod" />
+        <item itemvalue="JUnit.PCAEngineTest.testCalculateTfIdfMethod" />
         <item itemvalue="JUnit.PCAEngineTest.testFindForQueriesFileMethod" />
         <item itemvalue="JUnit.PCAEngineTest.testFindMethod" />
         <item itemvalue="JUnit.PCAEngineTest.testFindForQueriesFile" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.PCAEngineTest.testLoadModelMethod" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="MixtureGaussianGeneratorTest_testGenerateNextGaussianDataMethod - 2019.05.26 at 10h 41m 39s.xml">
-      <configuration name="MixtureGaussianGeneratorTest.testGenerateNextGaussianDataMethod" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 10m 28s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MixtureGaussianGeneratorTest_testGenerateMixtureGaussianDataSetMethod - 2019.05.26 at 10h 41m 42s.xml">
-      <configuration name="MixtureGaussianGeneratorTest.testGenerateMixtureGaussianDataSetMethod" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 11m 34s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MixtureGaussianGeneratorTest - 2019.05.26 at 10h 41m 46s.xml">
-      <configuration name="MixtureGaussianGeneratorTest" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 12m 03s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest - 2019.05.26 at 10h 45m 32s.xml">
-      <configuration name="PCAEngineTest" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 17m 49s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testLoadModelMethod - 2019.05.26 at 10h 46m 07s.xml">
-      <configuration name="PCAEngineTest.testLoadModelMethod" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 19m 44s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testFindForQueriesFile - 2019.05.26 at 10h 48m 37s.xml">
-      <configuration name="PCAEngineTest.testFindForQueriesFile" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateTfIdfMethod - 2019.05.26 at 13h 19m 57s.xml">
+      <configuration name="PCAEngineTest.testCalculateTfIdfMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testFindForQueriesFile - 2019.05.26 at 10h 50m 10s.xml">
-      <configuration name="PCAEngineTest.testFindForQueriesFile" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateVectorsDistanceMethod - 2019.05.26 at 13h 27m 01s.xml">
+      <configuration name="PCAEngineTest.testCalculateVectorsDistanceMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testFindForQueriesFile - 2019.05.26 at 10h 51m 01s.xml">
-      <configuration name="PCAEngineTest.testFindForQueriesFile" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateVectorsDistanceMethod - 2019.05.26 at 13h 28m 32s.xml">
+      <configuration name="PCAEngineTest.testCalculateVectorsDistanceMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testFindForQueriesFile - 2019.05.26 at 10h 52m 30s.xml">
-      <configuration name="PCAEngineTest.testFindForQueriesFile" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateVectorsDistanceMethod - 2019.05.26 at 13h 30m 29s.xml">
+      <configuration name="PCAEngineTest.testCalculateVectorsDistanceMethod" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PCAEngineTest_testFindMethod - 2019.05.26 at 10h 54m 47s.xml">
-      <configuration name="PCAEngineTest.testFindMethod" configurationId="JUnit" />
+    <history-entry file="PCAEngineTest_testCalculateVectorsDistanceMethod - 2019.05.26 at 13h 30m 43s.xml">
+      <configuration name="PCAEngineTest.testCalculateVectorsDistanceMethod" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -703,6 +690,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DSA.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/core/common/IOManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;field#pathToFile#0;class#IOManager#0" />
+            <element signature="docComment;method#IOManager#0;class#IOManager#0" />
+            <element signature="docComment;method#openInputStream#0;class#IOManager#0" />
+            <element signature="method#openInputStream#0;class#IOManager#0" />
+            <element signature="docComment;method#closeInputStream#0;class#IOManager#0" />
+            <element signature="method#closeInputStream#0;class#IOManager#0" />
+            <element signature="method#isEOF#0;class#IOManager#0" />
+            <element signature="docComment;method#readInput#0;class#IOManager#0" />
+            <element signature="method#readInput#0;class#IOManager#0" />
+            <element signature="docComment;method#openOutputStream#0;class#IOManager#0" />
+            <element signature="method#openOutputStream#0;class#IOManager#0" />
+            <element signature="docComment;method#flushOutputStream#0;class#IOManager#0" />
+            <element signature="method#flushOutputStream#0;class#IOManager#0" />
+            <element signature="docComment;method#closeOutputStream#0;class#IOManager#0" />
+            <element signature="method#closeOutputStream#0;class#IOManager#0" />
+            <element signature="docComment;method#writeOutput#0;class#IOManager#0" />
+            <element signature="method#writeOutput#0;class#IOManager#0" />
+            <element signature="docComment;method#readLines#0;class#IOManager#0" />
+            <element signature="method#readLines#0;class#IOManager#0" />
+            <element signature="e#3404#3454#1" />
+            <element signature="docComment;method#writeTextToFile#0;class#IOManager#0" />
+            <element signature="method#writeTextToFile#0;class#IOManager#0" />
+            <element signature="e#4024#4077#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/gui/PCAController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -745,7 +774,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="-61">
           <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -755,29 +784,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/algorithm/MixtureGaussianGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="method#getInstance#0;class#MixtureGaussianGenerator#0" />
-            <element signature="docComment;method#generateNextGaussianData#0;class#MixtureGaussianGenerator#0" />
-            <element signature="method#generateNextGaussianData#0;class#MixtureGaussianGenerator#0" />
-            <element signature="e#645#1029#1" />
-            <element signature="e#662#860#1" />
-            <element signature="docComment;method#generateGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
-            <element signature="method#generateGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
-            <element signature="e#1488#1566#1" />
-            <element signature="docComment;method#generateMixtureGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
-            <element signature="e#1929#2146#1" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PCAEngineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+        <state relative-caret-position="330">
+          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
           <folding>
             <element signature="method#testLoadModelMethod#0;class#PCAEngineTest#0" />
             <element signature="e#318#368#0" />
@@ -798,41 +808,20 @@
             <element signature="e#2153#2196#0" />
             <element signature="e#2219#2263#0" />
             <element signature="e#2297#2341#0" />
+            <element signature="method#testTrainMethod#0;class#PCAEngineTest#0" />
+            <element signature="e#3515#3629#0" />
+            <element signature="e#3663#3707#0" />
+            <element signature="e#3744#3788#0" />
+            <element signature="e#5359#5430#0" />
+            <element signature="e#5467#5538#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DSA.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/gui/GaussianController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/core/common/ConfigurationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/algorithm/PCAEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="176" column="55" selection-start-line="176" selection-start-column="55" selection-end-line="176" selection-end-column="55" />
+        <state relative-caret-position="357">
+          <caret line="142" column="140" selection-start-line="142" selection-start-column="140" selection-end-line="142" selection-end-column="140" />
           <folding>
             <element signature="method#PCAEngine#0;class#PCAEngine#0" />
             <element signature="docComment;method#loadModel#0;class#PCAEngine#0" />
@@ -855,9 +844,17 @@
             <element signature="e#4201#4449#1" />
             <element signature="e#4590#4761#1" />
             <element signature="docComment;method#calculateVectorsDistance#0;class#PCAEngine#0" />
+            <element signature="method#calculateVectorsDistance#0;class#PCAEngine#0" />
+            <element signature="e#5186#5524#1" />
             <element signature="docComment;method#calculateTfIdf#0;class#PCAEngine#0" />
+            <element signature="method#calculateTfIdf#0;class#PCAEngine#0" />
             <element signature="docComment;method#train#0;class#PCAEngine#0" />
             <element signature="method#train#0;class#PCAEngine#0" />
+            <element signature="e#6544#7352#0" />
+            <element signature="e#6850#7272#1" />
+            <element signature="e#6935#7008#0" />
+            <element signature="e#6979#7258#1" />
+            <element signature="e#7375#7415#0" />
             <element signature="docComment;method#startCalculateChunk#0;class#PCAEngine#0" />
             <element signature="method#startCalculateChunk#0;class#PCAEngine#0" />
             <element signature="e#7803#8466#1" />
@@ -885,29 +882,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/core/common/IOManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/gui/GaussianController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="583">
+          <caret line="48" column="57" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
           <folding>
-            <element signature="docComment;field#pathToFile#0;class#IOManager#0" />
-            <element signature="docComment;method#IOManager#0;class#IOManager#0" />
-            <element signature="docComment;method#openInputStream#0;class#IOManager#0" />
-            <element signature="docComment;method#closeInputStream#0;class#IOManager#0" />
-            <element signature="method#closeInputStream#0;class#IOManager#0" />
-            <element signature="docComment;method#readInput#0;class#IOManager#0" />
-            <element signature="method#readInput#0;class#IOManager#0" />
-            <element signature="docComment;method#openOutputStream#0;class#IOManager#0" />
-            <element signature="docComment;method#flushOutputStream#0;class#IOManager#0" />
-            <element signature="docComment;method#closeOutputStream#0;class#IOManager#0" />
-            <element signature="method#closeOutputStream#0;class#IOManager#0" />
-            <element signature="docComment;method#writeOutput#0;class#IOManager#0" />
-            <element signature="method#writeOutput#0;class#IOManager#0" />
-            <element signature="docComment;method#readLines#0;class#IOManager#0" />
-            <element signature="method#readLines#0;class#IOManager#0" />
-            <element signature="e#3404#3454#1" />
-            <element signature="docComment;method#writeTextToFile#0;class#IOManager#0" />
-            <element signature="e#4024#4077#1" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/core/common/ConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/thienthn/algorithm/MixtureGaussianGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="method#getInstance#0;class#MixtureGaussianGenerator#0" />
+            <element signature="docComment;method#generateNextGaussianData#0;class#MixtureGaussianGenerator#0" />
+            <element signature="method#generateNextGaussianData#0;class#MixtureGaussianGenerator#0" />
+            <element signature="e#645#1029#1" />
+            <element signature="e#662#860#1" />
+            <element signature="docComment;method#generateGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
+            <element signature="method#generateGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
+            <element signature="e#1488#1566#1" />
+            <element signature="docComment;method#generateMixtureGaussianDataSet#0;class#MixtureGaussianGenerator#0" />
+            <element signature="e#1929#2146#1" />
           </folding>
         </state>
       </provider>
