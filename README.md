@@ -21,9 +21,7 @@ I. Project Contructor information
 	- Just build and run the source code!
 
 II. Project Conclusion
-1. For the first task, I haven't implement the solution to drawing Bayes decision boundary yet because I haven't found posible way. 
-   Though I think the boundary would be the set of those points which make P1 and P2 equal (P1 and P2 are the distribution of 2 Gaussian mixture model), I miss something so I haven't draw it yet!
-2. For the second task, I stuck on the trouble that the data contains a really large bag of words. This problem prevents me to build one model for whole data. 
+   For the second task, I stuck on the trouble that the data contains a really large bag of words. This problem prevents me to build one model for whole data. 
    I had found some solutions for this kind of obstacle however the point of the task that is using pca and tf-idf (which bases on words to process). 
    Therefore I splitted the training data into small pieces and trained on those minor datas. Of course this approach would be too far to the destination but this is the way I can handle. 
    May be my approach for the implementation of algorithm was wrong (tf-idf could be apply not for word but something else or pca has some techniques to handle this situation that I don't know).

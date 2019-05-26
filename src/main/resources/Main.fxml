@@ -21,14 +21,6 @@
                                 <NumberAxis side="LEFT"/>
                             </yAxis>
                         </ScatterChart>
-                        <!--<BarChart prefHeight="571.0" prefWidth="576.0" fx:id="sbChart">-->
-                        <!--<xAxis>-->
-                        <!--<CategoryAxis side="BOTTOM"/>-->
-                        <!--</xAxis>-->
-                        <!--<yAxis>-->
-                        <!--<NumberAxis side="LEFT"/>-->
-                        <!--</yAxis>-->
-                        <!--</BarChart>-->
                         <AnchorPane prefHeight="571.0" prefWidth="122.0">
                             <children>
                                 <Button id="btnGenerate" layoutX="32.0" layoutY="40.0" mnemonicParsing="false"
