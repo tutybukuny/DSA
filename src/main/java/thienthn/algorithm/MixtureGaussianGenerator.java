@@ -79,6 +79,9 @@ public class MixtureGaussianGenerator {
     /**
      * generate Bayes decision boundary
      * the last 0.25 of the formula to calculate log1 and log2 is the probability of a mean, each k1 and k2 has 5 mean and they have equal probability so it is 0.25
+     * formula: log(sum(Ni(meank, variance)ai)) - log(sum(Nk(meank, variance)ak))
+     * while ai, ak is probability of that component
+     *
      * @param k1
      * @param k2
      * @param variance
@@ -88,14 +91,14 @@ public class MixtureGaussianGenerator {
         ArrayList<Pair> points = new ArrayList<>();
 
         double min = Double.MAX_VALUE, max = Double.MIN_VALUE;
-        for(int i = 0; i < k1.length; i++) {
-            if(k1[i] + variance > max)
+        for (int i = 0; i < k1.length; i++) {
+            if (k1[i] + variance > max)
                 max = k1[i] + variance;
-            if(k2[i] + variance > max)
+            if (k2[i] + variance > max)
                 max = k2[i] + variance;
-            if(k1[i] - variance < min)
+            if (k1[i] - variance < min)
                 min = k1[i] - variance;
-            if(k2[i] - variance < min)
+            if (k2[i] - variance < min)
                 min = k2[i] - variance;
         }
 
@@ -103,8 +106,8 @@ public class MixtureGaussianGenerator {
             double log1 = 0;
             double log2 = 0;
             for (int i = 0; i < k1.length; i++) {
-                log1 += 1.0 / (Math.sqrt(2 * Math.PI) * variance) * Math.exp(-Math.pow(x - k1[i], 2) / (2 * variance * variance)) * 0.25;
-                log2 += 1.0 / (Math.sqrt(2 * Math.PI) * variance) * Math.exp(-Math.pow(x - k2[i], 2) / (2 * variance * variance)) * 0.25;
+                log1 += calculateComponentsLog(x, k1[i], variance, 0.25);
+                log2 += calculateComponentsLog(x, k2[i], variance, 0.25);
             }
 
             double y = Math.log(log1) - Math.log(log2);
@@ -113,5 +116,9 @@ public class MixtureGaussianGenerator {
         }
 
         return points;
+    }
+
+    public double calculateComponentsLog(double x, double mean, double variance, double probability) {
+        return 1.0 / (Math.sqrt(2 * Math.PI) * variance) * Math.exp(-Math.pow(x - mean, 2) / (2 * variance * variance)) * probability;
     }
 }
